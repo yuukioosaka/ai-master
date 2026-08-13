@@ -47,7 +47,7 @@ AIマスター標準は2つの軸を統合しています。
 <ul class="post-list">
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">
+      <a href="{{ "/ai-master" | append: post.url }}">
         <strong>{{ post.title }}</strong>
       </a>
     </li>
