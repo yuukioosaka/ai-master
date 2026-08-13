@@ -2,8 +2,6 @@
 layout: default
 title: AI MASTER
 ---
-独自AI能力認定AI MASTERの解説
-
 # AIマスター標準とは
 
 ## 定義
