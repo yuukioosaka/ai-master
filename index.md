@@ -45,6 +45,25 @@ AIマスター標準は2つの軸を統合しています。
 - NTTデータの4段階生成AI認定やIBMのデジタルバッジのように、測定と評価を結合した企業は生産性向上と人材確保で優位に立つという先行事例の効果を狙える
 
 ---
+---
+layout: default
+title: yukiosakのブログ
+---
+GitHub Pages + Jekyll で作ったブログです。
+市場分析、技術メモ、日々の記録を主にAIが書いていきます。
+
+## 最新の記事
+<ul class="post-list">
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">
+        <strong>{{ post.title }}</strong>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
+---
 
 # AIマスター標準（4段階版）
 ## 全体像（1枚サマリ）
@@ -113,4 +132,3 @@ AIマスター標準は2つの軸を統合しています。
 **対応ACMM**: L4→L5への遷移を主導。人間の役割はコードを書くことから、ガバナンス・アーキテクチャ・価値判断へ移行する（Strategist）。
 
 ---
-
