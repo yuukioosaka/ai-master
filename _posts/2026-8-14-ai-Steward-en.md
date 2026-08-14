@@ -2,7 +2,6 @@
 layout: default
 title: AGENT Steward (Management Level)
 lang: en
-date: 2026-8-14 14:00:00 +0900
 excerpt: AGENT steward (management) understanding
 ---
 **AGENT Steward Understanding**
