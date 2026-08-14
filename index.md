@@ -61,7 +61,7 @@ AIマスター標準は2つの軸を統合しています。
 
 | 初級 | 中級 | 上級 | 管理級 |
 |---|---|---|---|
-| ![初級（Foundation）]({{ '/assets/images/cert-foundation.svg' | relative_url }}) | ![中級（Practitioner）]({{ '/assets/images/cert-practitioner.svg' | relative_url }}) | ![上級（Expert）]({{ '/assets/images/cert-expert.svg' | relative_url }}) | ![管理級（Steward）]({{ '/assets/images/cert-steward.svg' | relative_url }}) |
+| <img src="{{ '/assets/images/cert-foundation.svg' | relative_url }}" alt="初級（Foundation）" width="220"> | <img src="{{ '/assets/images/cert-practitioner.svg' | relative_url }}" alt="中級（Practitioner）" width="220"> | <img src="{{ '/assets/images/cert-expert.svg' | relative_url }}" alt="上級（Expert）" width="220"> | <img src="{{ '/assets/images/cert-steward.svg' | relative_url }}" alt="管理級（Steward）" width="220"> |
 
 <a href="{{ '/assets/images/cert-foundation.svg' | relative_url }}" download="cert-foundation.svg" class="btn">初級認定ロゴをダウンロード</a>
 
