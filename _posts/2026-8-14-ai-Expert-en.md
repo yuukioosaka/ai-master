@@ -2,6 +2,7 @@
 layout: default
 title: AGENT Expert (Advanced Level)
 lang: en
+date: 2026-8-13 21:00:00 +0900
 excerpt: AGENT advanced understanding
 ---
 **AGENT Expert Understanding**

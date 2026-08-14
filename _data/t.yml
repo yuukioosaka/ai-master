@@ -1,8 +1,8 @@
 en:
   site_title: "AI MASTER"
   nav_home: "Home"
-  nav_about: "About Us"
+  nav_github: "GitHub"
 ja:
   site_title: "AIマスター標準"
   nav_home: "ホーム"
-  nav_about: "会社概要"
+  nav_github: "GitHub"

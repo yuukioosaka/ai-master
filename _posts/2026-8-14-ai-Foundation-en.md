@@ -2,6 +2,7 @@
 layout: default
 title: AGENT Foundation (Basic Level)
 lang: en
+date: 2026-8-13 23:00:00 +0900
 excerpt: AGENT foundation understanding
 ---
 **AGENT Foundation Understanding**

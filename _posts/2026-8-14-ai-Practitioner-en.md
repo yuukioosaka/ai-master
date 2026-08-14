@@ -2,6 +2,7 @@
 layout: default
 title: AGENT Practitioner (Intermediate Level)
 lang: en
+date: 2026-8-13 22:00:00 +0900
 excerpt: AGENT intermediate understanding
 ---
 **AGENT Practitioner Understanding**
