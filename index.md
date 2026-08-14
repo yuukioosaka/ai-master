@@ -50,7 +50,7 @@ AIマスター標準は2つの軸を統合しています。
   {% for post in site.posts %}
     {% if post.lang == 'ja' %}
       <li>
-        <a href="{{ "/ai-master" | append: post.url }}">
+        <a href="{{ post.url | relative_url }}">
           <strong>{{ post.title }}</strong>
         </a>
       </li>

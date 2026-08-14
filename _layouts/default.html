@@ -1,37 +1,39 @@
 ---
 ---
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.default_lang }}">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title | default: site.title }}</title>
-  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
-</head>
-<body>
-  <header class="site-header">
-    <div class="wrapper">
-      <a class="site-title" href="{{ "/" | relative_url }}">{{ site.data.t[page.lang].site_title }}</a>
-      <nav>
-        <a href="{{ "/" | relative_url }}">{{ site.data.t[page.lang].nav_home }}</a>
-        <a href="{{ "/about/" | relative_url }}">{{ site.data.t[page.lang].nav_about }}</a>
-        {% if page.lang == 'ja' %}
-          <a href="/en/">EN</a>
-        {% else %}
-          <a href="/">JA</a>
-        {% endif %}
-      </nav>
-    </div>
-  </header>
+<html lang="{{ page.lang | default: site.default_lang | default: 'ja' }}">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>{{ page.title | default: site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
 
-  <main class="wrapper">
-    {{ content }}
-  </main>
+    <header class="page-header" role="banner">
+      <h1 class="project-name">{{ page.title | default: site.data.t[page.lang].site_title }}</h1>
+      <h2 class="project-tagline">{{ page.description | default: site.description }}</h2>
+      {% if page.lang == 'ja' %}
+        <a href="{{ '/en/' | relative_url }}" class="btn">English</a>
+      {% else %}
+        <a href="{{ '/' | relative_url }}" class="btn">日本語</a>
+      {% endif %}
+    </header>
 
-  <footer class="site-footer">
-    <div class="wrapper">
-      <p>{{ site.data.t[page.lang].footer_copyright }}</p>
-    </div>
-  </footer>
-</body>
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+
+      <footer class="site-footer">
+        <span class="site-footer-credits">
+          <a href="{{ '/' | relative_url }}">{{ site.data.t[page.lang].nav_home }}</a> ·
+          <a href="{{ '/about/' | relative_url }}">{{ site.data.t[page.lang].nav_about }}</a>
+        </span>
+      </footer>
+    </main>
+  </body>
 </html>

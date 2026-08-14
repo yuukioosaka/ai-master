@@ -51,7 +51,7 @@ Most existing maturity models focus on "how much AI can replace humans (autonomy
   {% for post in site.posts %}
     {% if post.lang == 'en' %}
       <li>
-        <a href="{{ "/ai-master" | append: post.url }}">
+        <a href="{{ post.url | relative_url }}">
           <strong>{{ post.title }}</strong>
         </a>
       </li>
