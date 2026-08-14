@@ -82,5 +82,3 @@ Certification uses a **Claude-based certification** approach.
 | Steward | Governance & organizational design | L4→L5 | Strategist |
 
 The levels reflect individual operational skill, while the transition trigger corresponds to ACMM organizational maturity, distinguishing "people who use AI well" from "people who mature an organization."
-
----
