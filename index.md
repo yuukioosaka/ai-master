@@ -1,6 +1,8 @@
 ---
 layout: default
 title: AI MASTER
+lang: ja
+permalink: /
 ---
 # AIマスター標準とは
 
@@ -46,11 +48,13 @@ AIマスター標準は2つの軸を統合しています。
 ## 知識エリア
 <ul class="post-list">
   {% for post in site.posts %}
-    <li>
-      <a href="{{ "/ai-master" | append: post.url }}">
-        <strong>{{ post.title }}</strong>
-      </a>
-    </li>
+    {% if post.lang == 'ja' %}
+      <li>
+        <a href="{{ "/ai-master" | append: post.url }}">
+          <strong>{{ post.title }}</strong>
+        </a>
+      </li>
+    {% endif %}
   {% endfor %}
 </ul>
 ---

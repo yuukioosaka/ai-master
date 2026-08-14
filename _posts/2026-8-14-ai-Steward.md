@@ -1,6 +1,7 @@
 ---
 layout: default
 title: AGENT管理級理解(管理級相当)
+lang: ja
 date: 2026-8-14 04:00:00 +0900
 excerpt: AGENT管理級理解
 ---

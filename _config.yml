@@ -1,2 +1,6 @@
 timezone: Asia/Tokyo
 theme: jekyll-theme-cayman
+default_lang: ja
+langs:
+  - en
+  - ja

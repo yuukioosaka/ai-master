@@ -1,6 +1,7 @@
 ---
 layout: default
 title: AGENT基礎理解(初級相当)
+lang: ja
 date: 2026-8-14 00:00:00 +0900
 excerpt: AGENT基礎理解
 ---
