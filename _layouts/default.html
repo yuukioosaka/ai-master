@@ -18,6 +18,9 @@
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.data.t[page.lang].site_title }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description }}</h2>
+      {% if site.github_url %}
+        <a href="{{ site.github_url }}" class="btn" target="_blank" rel="noopener">{{ site.data.t[page.lang].btn_repo }}</a>
+      {% endif %}
       {% if page.lang == 'ja' %}
         <a href="{{ '/en/' | relative_url }}" class="btn">English</a>
       {% else %}

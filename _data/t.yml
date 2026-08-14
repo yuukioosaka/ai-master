@@ -2,7 +2,9 @@ en:
   site_title: "AI MASTER"
   nav_home: "Home"
   nav_github: "GitHub"
+  btn_repo: "View on GitHub"
 ja:
   site_title: "AIマスター標準"
   nav_home: "ホーム"
   nav_github: "GitHub"
+  btn_repo: "View on GitHub"
