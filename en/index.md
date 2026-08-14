@@ -44,6 +44,17 @@ Most existing maturity models focus on "how much AI can replace humans (autonomy
 - AI adoption can be objectively incorporated into hiring, placement, and evaluation.
 - Like the NTT Data four-level generative AI certification or IBM digital badges, companies that combine measurement and evaluation can gain an advantage in productivity and talent acquisition.
 
+## Certification Method
+
+Certification uses a **Claude-based certification** approach.
+
+1. Submit the certification exam prompt (from the certification articles on this page) to [Claude](https://claude.ai) (either the web or app version)
+2. Claude asks questions and problems tailored to your level, drawing out **your concrete examples** through dialogue
+3. Claude scores and evaluates you
+4. You **self-declare** the certification you received (no official accreditation or certificate is issued by an external body)
+
+> The certification exam prompts are available from each level's article in the [Knowledge Areas](#knowledge-areas).
+
 ---
 
 ## Knowledge Areas
