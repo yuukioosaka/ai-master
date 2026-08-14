@@ -32,3 +32,10 @@ excerpt: AGENT foundation understanding
 - [ ] Knows there are copyright/licensing considerations for generated code
 - [ ] Understands the risk that auto-executed commands may unintentionally perform destructive operations
 - [ ] Understands the risk of using generated content in production/publication without verification
+
+**Practical Application (Programming Work)**
+- [ ] Can instruct the agent to perform a single clear task (function fix, bug fix, small feature addition)
+- [ ] Can read and verify the generated diff to confirm it matches intent, then apply it
+- [ ] Can have the agent run unit tests for the changed code and confirm pass/fail
+- [ ] Can make the judgment not to use the agent's output (code, tests) in production without verification
+- [ ] Can at least confirm after a fix that existing functionality still works (startup, main operations)
