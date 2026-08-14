@@ -55,6 +55,16 @@ AIマスター標準は2つの軸を統合しています。
 
 > 認定試験プロンプトは、[知識エリア](#知識エリア)にある各レベルの記事から取得できます。
 
+## 認定バッジ（4レベル）
+
+認定された級に応じて、以下のバッジを自主的に名乗ってください。
+
+| 初級 | 中級 | 上級 | 管理級 |
+|---|---|---|---|
+| ![初級（Foundation）]({{ '/assets/images/cert-foundation.svg' | relative_url }}) | ![中級（Practitioner）]({{ '/assets/images/cert-practitioner.svg' | relative_url }}) | ![上級（Expert）]({{ '/assets/images/cert-expert.svg' | relative_url }}) | ![管理級（Steward）]({{ '/assets/images/cert-steward.svg' | relative_url }}) |
+
+<a href="{{ '/assets/images/cert-foundation.svg' | relative_url }}" download="cert-foundation.svg" class="btn">初級認定ロゴをダウンロード</a>
+
 ---
 ## 知識エリア
 <ul class="post-list">

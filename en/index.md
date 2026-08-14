@@ -55,6 +55,14 @@ Certification uses a **Claude-based certification** approach.
 
 > The certification exam prompts are available from each level's article in the [Knowledge Areas](#knowledge-areas).
 
+## Certification Badges (4 levels)
+
+Self-declare the badge corresponding to the level you have been certified at.
+
+| Foundation | Practitioner | Expert | Steward |
+|---|---|---|---|
+| ![Foundation]({{ '/assets/images/cert-foundation.svg' | relative_url }}) | ![Practitioner]({{ '/assets/images/cert-practitioner.svg' | relative_url }}) | ![Expert]({{ '/assets/images/cert-expert.svg' | relative_url }}) | ![Steward]({{ '/assets/images/cert-steward.svg' | relative_url }}) |
+
 ---
 
 ## Knowledge Areas

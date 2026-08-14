@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="AI MASTER logo">
+  <!-- rounded square badge -->
+  <rect x="24" y="24" width="464" height="464" rx="96" fill="#ffffff"/>
+
+  <!-- 4 level bars, same width, number + English name inside each -->
+  <g font-family="'Open Sans','Helvetica Neue',Arial,sans-serif">
+    <g>
+      <rect x="96" y="338" width="320" height="52" rx="10" fill="#f39c12"/>
+      <text x="130" y="372" font-size="26" font-weight="700" fill="#ffffff">1</text>
+      <text x="172" y="372" font-size="20" font-weight="700" fill="#ffffff">Foundation</text>
+    </g>
+    <g>
+      <rect x="96" y="274" width="320" height="52" rx="10" fill="#27ae60"/>
+      <text x="130" y="308" font-size="26" font-weight="700" fill="#ffffff">2</text>
+      <text x="172" y="308" font-size="20" font-weight="700" fill="#ffffff">Practitioner</text>
+    </g>
+    <g>
+      <rect x="96" y="210" width="320" height="52" rx="10" fill="#157878"/>
+      <text x="130" y="244" font-size="26" font-weight="700" fill="#ffffff">3</text>
+      <text x="172" y="244" font-size="20" font-weight="700" fill="#ffffff">Expert</text>
+    </g>
+    <g>
+      <rect x="96" y="146" width="320" height="52" rx="10" fill="#2c3e50"/>
+      <text x="130" y="180" font-size="26" font-weight="700" fill="#ffffff">4</text>
+      <text x="172" y="180" font-size="20" font-weight="700" fill="#ffffff">Steward</text>
+    </g>
+  </g>
+
+  <!-- caption -->
+  <text x="256" y="450" font-family="'Open Sans','Helvetica Neue',Arial,sans-serif" font-size="28" font-weight="700" fill="#157878" text-anchor="middle" letter-spacing="1">AI MASTER</text>
+</svg>
